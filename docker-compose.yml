@@ -1,0 +1,10 @@
+services:
+  gba-go-copilot:
+    build: .
+    ports:
+      - "8017:8017"
+    env_file:
+      - .env
+    volumes:
+      - ./demo_runtime:/app/demo_runtime
+

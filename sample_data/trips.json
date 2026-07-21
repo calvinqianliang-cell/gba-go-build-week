@@ -1,0 +1,88 @@
+[
+  {
+    "order_id": "trip_demo_001",
+    "passenger_id": "pax_demo_001",
+    "driver_id": "drv_demo_001",
+    "status": "assigned",
+    "pickup_label": "Demo Convention Center",
+    "dropoff_label": "Demo Airport Terminal",
+    "scheduled_for": "2026-07-21T18:30:00Z",
+    "distance_km": 22.4,
+    "eta_minutes": 31,
+    "passenger_price": 86.40,
+    "driver_income": 69.12,
+    "platform_fee": 17.28,
+    "special_note": "Accessible pickup requested",
+    "fare_evidence": {
+      "base_fare": 42.00,
+      "distance_component": 33.60,
+      "reservation_component": 10.80,
+      "market_factor": 1.00
+    }
+  },
+  {
+    "order_id": "trip_demo_002",
+    "passenger_id": "pax_demo_001",
+    "driver_id": null,
+    "status": "dispatch_blocked",
+    "pickup_label": "Demo Tech Park",
+    "dropoff_label": "Demo Rail Station",
+    "scheduled_for": "2026-07-21T19:15:00Z",
+    "distance_km": 11.8,
+    "eta_minutes": 24,
+    "passenger_price": 54.50,
+    "driver_income": null,
+    "platform_fee": null,
+    "special_note": "Needs trunk space",
+    "blocked_reason": "no_driver_available",
+    "fare_evidence": {
+      "base_fare": 32.00,
+      "distance_component": 17.70,
+      "reservation_component": 4.80,
+      "market_factor": 1.00
+    }
+  },
+  {
+    "order_id": "trip_demo_003",
+    "passenger_id": "pax_demo_002",
+    "driver_id": "drv_demo_002",
+    "status": "operator_review_required",
+    "pickup_label": "Demo Ferry Pier",
+    "dropoff_label": "Demo Hotel District",
+    "scheduled_for": "2026-07-21T20:00:00Z",
+    "distance_km": 14.2,
+    "eta_minutes": 27,
+    "passenger_price": 62.20,
+    "driver_income": null,
+    "platform_fee": null,
+    "special_note": "Passenger prefers quiet route",
+    "blocked_reason": "driver_reservation_limited",
+    "fare_evidence": {
+      "base_fare": 35.00,
+      "distance_component": 21.30,
+      "reservation_component": 5.90,
+      "market_factor": 1.00
+    }
+  },
+  {
+    "order_id": "trip_demo_004",
+    "passenger_id": "pax_demo_002",
+    "driver_id": null,
+    "status": "route_verification_required",
+    "pickup_label": "Demo Cross-Border Gate",
+    "dropoff_label": "Demo Finance Tower",
+    "scheduled_for": "2026-07-21T21:30:00Z",
+    "distance_km": null,
+    "eta_minutes": null,
+    "passenger_price": null,
+    "driver_income": null,
+    "platform_fee": null,
+    "special_note": "Cross-zone route requires verification",
+    "blocked_reason": "map_route_unverified",
+    "fare_evidence": {
+      "map_api_used": false,
+      "route_confidence": 0.31
+    }
+  }
+]
+

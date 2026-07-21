@@ -1,0 +1,31 @@
+[
+  {
+    "risk_event_id": "risk_demo_001",
+    "order_id": "trip_demo_001",
+    "risk_level": "low",
+    "score": 18,
+    "controls": ["normal dispatch audit"]
+  },
+  {
+    "risk_event_id": "risk_demo_002",
+    "order_id": "trip_demo_002",
+    "risk_level": "medium",
+    "score": 35,
+    "controls": ["do not assign offline drivers", "operator may rebalance zone"]
+  },
+  {
+    "risk_event_id": "risk_demo_003",
+    "order_id": "trip_demo_003",
+    "risk_level": "medium",
+    "score": 42,
+    "controls": ["manual driver restriction review", "human approval required"]
+  },
+  {
+    "risk_event_id": "risk_demo_004",
+    "order_id": "trip_demo_004",
+    "risk_level": "high",
+    "score": 64,
+    "controls": ["manual route verification", "do not quote automatically"]
+  }
+]
+

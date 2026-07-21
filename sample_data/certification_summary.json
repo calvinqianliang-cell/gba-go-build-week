@@ -1,0 +1,17 @@
+{
+  "status": "STABILITY_CERTIFICATION_EVIDENCE",
+  "source": "Sanitized pre-existing GBA Go backend production certification artifact",
+  "test": "20 QPS x 3600s temporal stability",
+  "completed": 72000,
+  "successful": 72000,
+  "timeouts": 0,
+  "state_inconsistency": 0,
+  "drain_timed_out": false,
+  "cache_hit_rate_end": 0.999986,
+  "queue_final": 0,
+  "tss": 3.849986,
+  "notes": [
+    "No production hostnames, database URLs, Redis URLs, user data, or secrets are included.",
+    "Some broader production readiness files were preflight-only; this summary is used as stability evidence, not as a claim that every production gate is complete."
+  ]
+}

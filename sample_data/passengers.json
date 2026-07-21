@@ -1,0 +1,15 @@
+[
+  {
+    "passenger_id": "pax_demo_001",
+    "display_name": "Demo Passenger A",
+    "profile_flags": [],
+    "privacy_note": "Synthetic profile. No real user data."
+  },
+  {
+    "passenger_id": "pax_demo_002",
+    "display_name": "Demo Passenger B",
+    "profile_flags": ["accessibility_request"],
+    "privacy_note": "Synthetic profile. No real user data."
+  }
+]
+

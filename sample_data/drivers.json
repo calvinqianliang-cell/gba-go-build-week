@@ -1,0 +1,43 @@
+[
+  {
+    "driver_id": "drv_demo_001",
+    "display_name": "Demo Driver One",
+    "status": "available",
+    "reservation_allowed": true,
+    "risk_score": 18,
+    "service_tags": ["airport", "accessible"],
+    "current_zone": "demo_zone_south",
+    "documents": "valid"
+  },
+  {
+    "driver_id": "drv_demo_002",
+    "display_name": "Demo Driver Two",
+    "status": "available",
+    "reservation_allowed": false,
+    "risk_score": 42,
+    "service_tags": ["business"],
+    "current_zone": "demo_zone_east",
+    "documents": "valid"
+  },
+  {
+    "driver_id": "drv_demo_003",
+    "display_name": "Demo Driver Three",
+    "status": "offline",
+    "reservation_allowed": true,
+    "risk_score": 12,
+    "service_tags": ["airport"],
+    "current_zone": "demo_zone_west",
+    "documents": "valid"
+  },
+  {
+    "driver_id": "drv_demo_004",
+    "display_name": "Demo Driver Four",
+    "status": "restricted",
+    "reservation_allowed": false,
+    "risk_score": 72,
+    "service_tags": ["standard"],
+    "current_zone": "demo_zone_north",
+    "documents": "pending_review"
+  }
+]
+

@@ -1,0 +1,35 @@
+[
+  {
+    "event_id": "evt_dispatch_001",
+    "order_id": "trip_demo_001",
+    "event_type": "driver_assigned",
+    "driver_id": "drv_demo_001",
+    "reason": "Matched available driver with required service tag.",
+    "evidence": ["driver status: available", "risk score: 18", "service tag: accessible"]
+  },
+  {
+    "event_id": "evt_dispatch_002",
+    "order_id": "trip_demo_002",
+    "event_type": "dispatch_blocked",
+    "driver_id": null,
+    "reason": "No eligible online driver remained after filtering.",
+    "evidence": ["available drivers in zone: 0", "offline drivers excluded", "restricted drivers excluded"]
+  },
+  {
+    "event_id": "evt_dispatch_003",
+    "order_id": "trip_demo_003",
+    "event_type": "operator_review_required",
+    "driver_id": "drv_demo_002",
+    "reason": "Best candidate has reservation-limited status.",
+    "evidence": ["driver status: available", "reservation_allowed: false", "risk score: 42"]
+  },
+  {
+    "event_id": "evt_dispatch_004",
+    "order_id": "trip_demo_004",
+    "event_type": "route_verification_required",
+    "driver_id": null,
+    "reason": "Map route confidence fell below the dispatch threshold.",
+    "evidence": ["map_api_used: false", "route_confidence: 0.31", "fare not issued"]
+  }
+]
+
